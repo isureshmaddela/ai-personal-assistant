@@ -1,8 +1,8 @@
-# MentorAgents 🤖💡
+# AI Assitant 🤖💡
 
 **Your personal mentors, anytime. Anywhere.**
 
-MentorAgents is an AI-powered platform where users interact with agents modeled after legendary real-world experts—like Elon Musk for startups, Naval Ravikant for wealth, or Lex Fridman for AI. Ask questions, get tailored guidance, and learn from the best minds — anytime, anywhere.
+AI Assitant is an AI-powered platform where users interact with agents modeled after legendary real-world experts—like Elon Musk for startups, Naval Ravikant for wealth, or Lex Fridman for AI. Ask questions, get tailored guidance, and learn from the best minds — anytime, anywhere.
 
 ## 🚀 Features
 
@@ -96,12 +96,12 @@ MentorAgents is an AI-powered platform where users interact with agents modeled 
 
 4. **To Create long term memory**
    ```bash
-   python src/mentoragents/tools/create_long_term_memory.py
+   python src/AI Assitant/tools/create_long_term_memory.py
    ```
 
 4. **Run the backend**
     ```bash
-   uvicorn mentoragents.main:app --reload --host 127.0.0.1 --port 8080
+   uvicorn AI Assitant.main:app --reload --host 127.0.0.1 --port 8080
    ```
 
    The API will be available at `http://127.0.0.1:8080`.
@@ -140,7 +140,7 @@ The web app will be available at `http://localhost:3000` -->
 
 ## 🔧 Configuration
 
-Key configuration options in `ai-personal-assistant/src/mentoragents/core/config.py`:
+Key configuration options in `ai-personal-assistant/src/AI Assitant/core/config.py`:
 
 - **RAG Settings**: Embedding model, chunk size, retrieval parameters
 - **Memory Settings**: Message limits, summary triggers
